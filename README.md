@@ -48,6 +48,6 @@ do cohort_models.do
 | `results/`、`docs/` | Stata 输出、跨软件核对结果、文件清单和校验值 |
 | `logs/` | Agent 使用记录 |
 
-[DeepSeek 日志](deepseek_recovered.csv) 收录 9 个高企名单地级市补录任务的起止时间和工具调用次数。[Codex 记录](codex_recovered.csv) 收录项目回复节选及时间戳。Claude 和 Kimi 的使用情况由用户补记，模型名称的来源见各表字段。[使用补记](retrospective.csv)
+[DeepSeek 日志](deepseek_recovered.csv) 按会话编号汇总 88 段项目相关记录，其中 81 段为专题会话，另有 7 段选录项目相关消息。工作涉及认定名单采集、证书核对、城市补录、专利资料和早期研究。[事件明细](deepseek_events.csv) 按会话编号和序号列出专题会话中的 9,364 条工具调用及另 7 段会话中的 24 条相关消息。会话数包含分派给子任务的会话。[Codex 记录](codex_recovered.csv) 收录项目回复节选及时间戳。Claude 和 Kimi 的使用情况由用户补记，模型名称的来源见各表字段。[使用补记](retrospective.csv)
 
 归档于 2026 年 11 月 19 日。

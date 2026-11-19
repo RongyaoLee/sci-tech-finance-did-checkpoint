@@ -1,10 +1,89 @@
-﻿agent,model_user_label,model_verification,start,end,time_basis,task,tool_calls,tools,related_python_files,evidence_id,record_type
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T13:58:45+08:00,2026-11-14T14:17:59+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【浙江省 · 杭州市】,7,"pwsh,read,web_search",,26190d28c320cfdb,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T13:59:42+08:00,2026-11-14T14:15:14+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【浙江省 · 宁波市】,69,"compress,edit,pwsh,read,read_image,send_message,write","nb_build.py,nb_build2.py,nb_check.py,nb_check_pdf.py,nb_crawl_cols.py,nb_csvpeek.py,nb_docparse.py,nb_dumplist.py,nb_gap.py,nb_gap2020.py,nb_harvest.py,nb_layout.py,nb_names.py,nb_pdf_order.py,nb_probe1.py,nb_probe2.py,nb_probe3.py,nb_probe4.py,nb_probe5.py,nb_probe6.py,nb_probe7.py,nb_probe8.py,nb_probe9.py,nb_render2020.py,nb_verify.py",d86a76dd529a535d,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T13:59:58+08:00,2026-11-14T14:18:02+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【浙江省 · 嘉兴市、湖州市、绍兴市】,10,"pwsh,read,web_search,write",zjjx_probe1.py,bc9c10ab13c2dd5b,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:02+08:00,2026-11-14T14:12:51+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【浙江省 · 温州市、金华市、衢州市、舟山市】,6,"pwsh,read,web_search,write",zj_probe_wz.py,fb33b80d1de19c3c,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:12+08:00,2026-11-14T14:09:30+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【浙江省 · 台州市、丽水市】,7,"pwsh,read,web_search",,14c3dc611c262794,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:21+08:00,2026-11-14T14:18:02+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【山东省 · 济南市、淄博市、枣庄市】,41,"pwsh,read,web_search,write","sd_jnz_anchors.py,sd_jnz_dump.py,sd_jnz_jn_list.py,sd_jnz_jn_tpl.py,sd_jnz_lib.py,sd_jnz_probe1.py,sd_jnz_probe2.py,sd_jnz_probe3.py,sd_jnz_search1.py,sd_jnz_unit1.py,sd_jnz_unit2.py",ac171c369da08464,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:28+08:00,2026-11-14T14:15:31+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【山东省 · 烟台市、潍坊市】,19,"grep,pwsh,read,web_search,write","sd_cancel_parse.py,sd_yt_wf_cancel.py,yt_wf_probe1.py",464cb0d2790868d0,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:33+08:00,2026-11-14T14:12:09+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【山东省 · 济宁市、泰安市、威海市、日照市】,5,"pwsh,read,web_search",,b9ff566e3c9a8c31,原日志任务摘要
-DeepSeek Harness,v4.1flash,用户提供；本索引未证明精确模型版本,2026-11-14T14:00:38+08:00,2026-11-14T14:13:16+08:00,原会话索引时间,你是「高企名单地级市补齐」项目的子智能体，负责【山东省 · 临沂市、德州市、聊城市、滨州市、菏泽市】,8,"pwsh,read,web_search,write","list_sd5_a.py,probe_sd5_home.py",70031a7a05694a26,原日志任务摘要
+﻿evidence_id,agent,category,task,regions_in_task,start,end,scope,tool_calls,tools,model_user_label
+0ca59bbc0aa7a486,DeepSeek Harness,采集协调,各省认定名单与证书、城市面板、政策原文及专利数据的任务协调,,2026-11-14T10:05:18+08:00,2026-11-15T16:11:40+08:00,项目相关消息节选,,,v4.1flash
+6f718a4162e726b3,DeepSeek Harness,前期研究,检索科技金融与高企发展的相关文献,,2026-11-10T15:50:17+08:00,2026-11-10T15:50:17+08:00,项目相关消息节选,,,v4.1flash
+1f07d5a173b1031a,DeepSeek Harness,前期研究,早期论文的数据需求与科技金融指标,,2026-11-11T21:00:58+08:00,2026-11-11T21:00:58+08:00,项目相关消息节选,,,v4.1flash
+bc4e53a82101de8f,DeepSeek Harness,前期研究,查找历年高企注册数来源,,2026-11-11T21:08:50+08:00,2026-11-11T21:08:50+08:00,项目相关消息节选,,,v4.1flash
+24abf1678a337893,DeepSeek Harness,前期研究,早期论文讲解材料,,2026-11-11T22:26:21+08:00,2026-11-11T22:26:21+08:00,项目相关消息节选,,,v4.1flash
+fb8d547225884e22,DeepSeek Harness,前期研究,早期论文研究设计评阅,,2026-11-12T14:09:44+08:00,2026-11-12T14:09:44+08:00,项目相关消息节选,,,v4.1flash
+26c3e3cf62e81277,DeepSeek Harness,前期研究,查询企业登记数据库的高企注册数口径,,2026-11-14T09:59:19+08:00,2026-11-14T09:59:19+08:00,项目相关消息节选,,,v4.1flash
+f1fc8ddafbe3f1f8,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,江苏、浙江、上海、安徽,2026-11-14T10:19:39+08:00,2026-11-14T10:56:53+08:00,专题会话,223,"compress,edit,job_output,present,pwsh,read,send_message,web_search,write",v4.1flash
+a4d4273b0fbd85a6,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,广东、山东、北京、天津、青岛,2026-11-14T10:19:43+08:00,2026-11-14T11:23:27+08:00,专题会话,134,"compress,edit,grep,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+c7fdfccfa2b70569,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,湖北、湖南、四川、河北、河南、福建,2026-11-14T10:19:50+08:00,2026-11-14T13:50:06+08:00,专题会话,228,"compress,edit,job_kill,job_output,pwsh,read,send_message,todo_write,web_fetch,web_search,write",v4.1flash
+22e707edb453b6db,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,,2026-11-14T10:36:12+08:00,2026-11-14T11:19:11+08:00,专题会话,71,"compress,edit,job_output,present,pwsh,read,send_message,write",v4.1flash
+5c107065076ced0c,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:36:21+08:00,2026-11-14T14:08:01+08:00,专题会话,242,"compress,edit,grep,job_list,job_output,list_agents,present,pwsh,read,send_message,subagent,write",v4.1flash
+9ed83df20cd93e3e,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,,2026-11-14T10:36:30+08:00,2026-11-14T12:45:15+08:00,专题会话,160,"compress,edit,grep,job_kill,job_output,list_agents,pwsh,read,send_message,subagent,web_search,write",v4.1flash
+9bf55677d0c4c7bc,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:38:43+08:00,2026-11-14T12:42:11+08:00,专题会话,107,"compress,job_kill,job_output,present,pwsh,read,read_image,send_message,write",v4.1flash
+87e4b4ddd07fe004,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:38:43+08:00,2026-11-14T14:17:09+08:00,专题会话,136,"compress,job_kill,job_output,pwsh,read_image,write",v4.1flash
+9c7224a34caf3a1e,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:38:43+08:00,2026-11-14T11:18:57+08:00,专题会话,80,"compress,job_output,present,pwsh,read_image,send_message,write",v4.1flash
+fc2ae1aa5677dbc3,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:38:43+08:00,2026-11-14T10:51:41+08:00,专题会话,62,"compress,present,pwsh,send_message,write",v4.1flash
+5c19ac20d4cb90ed,DeepSeek Harness,数据库检索,检索和核对城市高企统计指标,山东,2026-11-14T10:38:43+08:00,2026-11-14T13:18:11+08:00,专题会话,121,"compress,edit,grep,job_kill,job_output,pwsh,send_message,write",v4.1flash
+7452ff929ec78c1f,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,西藏、重庆,2026-11-14T10:39:34+08:00,2026-11-14T10:55:33+08:00,专题会话,73,"compress,job_kill,job_output,pwsh,read,read_page,send_message,web_search,write",v4.1flash
+d8d7f01a44b5af12,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,陕西、宁夏、新疆、青海、甘肃,2026-11-14T10:39:34+08:00,2026-11-14T11:19:30+08:00,专题会话,74,"compress,edit,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+5aea82ffe3460b5a,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,江西、广西、云南、海南、贵州,2026-11-14T10:39:34+08:00,2026-11-14T10:56:23+08:00,专题会话,83,"compress,edit,job_kill,job_list,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+1f4b293e95821c24,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,山西、吉林、辽宁、黑龙江、内蒙古,2026-11-14T10:39:34+08:00,2026-11-14T10:55:25+08:00,专题会话,60,"compress,edit,glob,job_kill,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+5d55d556b4c5f408,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,,2026-11-14T10:45:42+08:00,2026-11-14T14:09:47+08:00,专题会话,273,"compress,edit,grep,job_output,list_agents,present,pwsh,read,send_message,subagent,write",v4.1flash
+1bda44d025eb7fe1,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,,2026-11-14T10:45:48+08:00,2026-11-14T14:18:01+08:00,专题会话,183,"compress,edit,grep,job_kill,job_list,job_output,list_agents,pwsh,read,subagent,write",v4.1flash
+fa43b58fcdeab20b,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,江苏、南京、无锡,2026-11-14T10:55:50+08:00,2026-11-14T13:05:47+08:00,专题会话,85,"compress,edit,job_output,list_agents,pwsh,read,send_message,subagent,web_search,write",v4.1flash
+3aa204c7604b43c0,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,浙江、杭州、宁波、嘉兴、绍兴、温州、金华,2026-11-14T10:55:50+08:00,2026-11-14T14:06:00+08:00,专题会话,171,"compress,edit,grep,job_kill,job_output,pwsh,read,send_message,todo_write,write",v4.1flash
+ad5d7f5ec2fd845d,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,安徽、四川、合肥、成都、绵阳,2026-11-14T10:55:50+08:00,2026-11-14T14:18:02+08:00,专题会话,191,"compress,edit,job_kill,job_output,list_agents,pwsh,read,send_message,subagent,write",v4.1flash
+9a933da464b42c44,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,山东、济南、青岛、临沂、烟台、潍坊,2026-11-14T10:55:50+08:00,2026-11-14T14:03:43+08:00,专题会话,158,"compress,edit,job_kill,job_output,present,pwsh,read,send_message,subagent,write",v4.1flash
+08f0b5a4bb48c7d1,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,广东,2026-11-14T10:55:50+08:00,2026-11-14T12:57:17+08:00,专题会话,87,"compress,edit,pwsh,read,send_message,write",v4.1flash
+f387005dfd3067d1,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,湖北、湖南、河南、武汉、长沙,2026-11-14T10:55:50+08:00,2026-11-14T13:34:15+08:00,专题会话,125,"compress,edit,job_list,job_output,list_agents,pwsh,read,send_message,subagent,write",v4.1flash
+2474d06b273dc45b,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,陕西、河北、福建、厦门、西安、石家庄、唐山,2026-11-14T10:55:50+08:00,2026-11-14T13:54:16+08:00,专题会话,153,"compress,edit,job_output,pwsh,read,send_message,subagent,write",v4.1flash
+3154157311e76f23,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,合肥,2026-11-14T10:56:49+08:00,2026-11-14T14:00:28+08:00,专题会话,116,"compress,edit,job_output,pwsh,read,send_message,write",v4.1flash
+446d7a1a055e26da,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,成都,2026-11-14T10:56:49+08:00,2026-11-14T12:52:04+08:00,专题会话,75,"compress,edit,job_kill,job_output,present,pwsh,read,send_message,write",v4.1flash
+039a4820814e4f4d,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,绵阳,2026-11-14T10:56:49+08:00,2026-11-14T13:18:11+08:00,专题会话,125,"compress,edit,job_output,pwsh,read,send_message,write",v4.1flash
+a8f896da262c3c8e,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,厦门、西安,2026-11-14T10:56:49+08:00,2026-11-14T13:34:14+08:00,专题会话,117,"compress,edit,job_output,pwsh,read,send_message,web_fetch,web_search,write",v4.1flash
+befeea17dc15e430,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,石家庄、唐山,2026-11-14T10:56:49+08:00,2026-11-14T13:11:23+08:00,专题会话,100,"compress,edit,grep,pwsh,read,send_message,write",v4.1flash
+d4dc3f4c4ee1615f,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,,2026-11-14T10:56:52+08:00,2026-11-14T14:02:06+08:00,专题会话,153,"compress,edit,grep,job_list,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+9a6a3a0d03ce1d74,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,长沙,2026-11-14T10:57:14+08:00,2026-11-14T13:30:36+08:00,专题会话,107,"compress,edit,job_kill,job_output,pwsh,read,send_message,write",v4.1flash
+f879ca7b956b0d22,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,武汉,2026-11-14T10:57:14+08:00,2026-11-14T13:09:44+08:00,专题会话,105,"compress,job_output,pwsh,read,send_message,write",v4.1flash
+c8c54b5c28c851df,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,江苏、无锡,2026-11-14T10:59:00+08:00,2026-11-14T13:01:46+08:00,专题会话,93,"compress,edit,job_kill,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+6bd232dd4cadc242,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,天津,2026-11-14T11:01:52+08:00,2026-11-14T12:37:11+08:00,专题会话,44,"job_kill,job_output,pwsh,send_message,web_search",v4.1flash
+cf9a9c79f863d191,DeepSeek Harness,认定名单采集,采集和解析高企认定名单,山东、临沂,2026-11-14T11:19:22+08:00,2026-11-14T14:01:57+08:00,专题会话,111,"compress,job_kill,job_output,pwsh,send_message,write",v4.1flash
+05042ee7fb9be113,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,山东,2026-11-14T11:26:21+08:00,2026-11-14T12:53:55+08:00,专题会话,36,"edit,job_kill,job_output,pwsh,read,read_image,send_message,web_search,write",v4.1flash
+05f9d615df553ff8,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,北京,2026-11-14T11:27:17+08:00,2026-11-14T13:56:48+08:00,专题会话,80,"compress,edit,job_kill,job_output,pwsh,send_message,web_search,write",v4.1flash
+3e75907efce76fea,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,安徽、河南,2026-11-14T11:28:06+08:00,2026-11-14T14:00:01+08:00,专题会话,90,"compress,edit,job_kill,pwsh,read_image,send_message,web_search,write",v4.1flash
+a2c0a897d0775292,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,湖南、四川,2026-11-14T11:30:20+08:00,2026-11-14T13:42:36+08:00,专题会话,68,"compress,job_output,pwsh,read,send_message,web_search,write",v4.1flash
+72831aaaf46f65e1,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、山东、青岛,2026-11-14T11:32:04+08:00,2026-11-14T14:14:28+08:00,专题会话,131,"compress,edit,grep,job_kill,job_output,list_agents,pwsh,read,send_message,subagent,web_search,write",v4.1flash
+0a5c3e915e77d622,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,湖北、湖南、陕西,2026-11-14T11:33:27+08:00,2026-11-14T14:18:01+08:00,专题会话,157,"compress,edit,grep,job_kill,job_output,list_agents,pwsh,read,send_message,subagent,web_search,write",v4.1flash
+d3cc41ba028bc10a,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,湖南,2026-11-14T13:42:52+08:00,2026-11-14T14:17:58+08:00,专题会话,69,"compress,grep,pwsh,read,send_message,web_search",v4.1flash
+00618c0cf899db24,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,陕西,2026-11-14T13:43:18+08:00,2026-11-14T14:18:02+08:00,专题会话,84,"compress,edit,pwsh,read,web_search,write",v4.1flash
+26190d28c320cfdb,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、杭州,2026-11-14T13:58:45+08:00,2026-11-14T14:17:59+08:00,专题会话,7,"pwsh,read,web_search",v4.1flash
+d86a76dd529a535d,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、宁波,2026-11-14T13:59:42+08:00,2026-11-14T14:15:14+08:00,专题会话,69,"compress,edit,pwsh,read,read_image,send_message,write",v4.1flash
+bc9c10ab13c2dd5b,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、嘉兴、湖州、绍兴,2026-11-14T13:59:58+08:00,2026-11-14T14:18:02+08:00,专题会话,10,"pwsh,read,web_search,write",v4.1flash
+fb33b80d1de19c3c,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、温州、金华、衢州、舟山,2026-11-14T14:00:02+08:00,2026-11-14T14:12:51+08:00,专题会话,6,"pwsh,read,web_search,write",v4.1flash
+14c3dc611c262794,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江、台州、丽水,2026-11-14T14:00:12+08:00,2026-11-14T14:09:30+08:00,专题会话,7,"pwsh,read,web_search",v4.1flash
+ac171c369da08464,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,山东、济南、淄博、枣庄,2026-11-14T14:00:21+08:00,2026-11-14T14:18:02+08:00,专题会话,41,"pwsh,read,web_search,write",v4.1flash
+464cb0d2790868d0,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,山东、烟台、潍坊,2026-11-14T14:00:28+08:00,2026-11-14T14:15:31+08:00,专题会话,19,"grep,pwsh,read,web_search,write",v4.1flash
+b9ff566e3c9a8c31,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,山东、济宁、泰安、威海、日照,2026-11-14T14:00:33+08:00,2026-11-14T14:12:09+08:00,专题会话,5,"pwsh,read,web_search",v4.1flash
+70031a7a05694a26,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,山东、临沂、德州、聊城、滨州、菏泽,2026-11-14T14:00:38+08:00,2026-11-14T14:13:16+08:00,专题会话,8,"pwsh,read,web_search,write",v4.1flash
+df03cb353d4b71c5,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,安徽,2026-11-14T14:02:30+08:00,2026-11-14T14:18:01+08:00,专题会话,10,"pwsh,ssh_list,web_search,write",v4.1flash
+7c633abf3aad8898,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,江西,2026-11-14T14:02:39+08:00,2026-11-14T14:04:46+08:00,专题会话,12,pwsh,v4.1flash
+3c0029a4829cb200,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,山西、吉林,2026-11-14T14:02:46+08:00,2026-11-14T14:06:02+08:00,专题会话,6,pwsh,v4.1flash
+f6fa8792417c99d6,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,,2026-11-14T14:02:53+08:00,2026-11-14T14:18:01+08:00,专题会话,67,"compress,pwsh,subagent,write",v4.1flash
+526cdf7e44ca6088,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,宁夏,2026-11-14T14:07:40+08:00,2026-11-14T14:11:35+08:00,专题会话,17,"grep,pwsh,read,web_search",v4.1flash
+aabebad294ea7eb4,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,西藏,2026-11-14T14:07:40+08:00,2026-11-14T14:14:34+08:00,专题会话,26,"pwsh,read,web_fetch",v4.1flash
+b7d59e1059969e6f,DeepSeek Harness,历史名单与证书,补查历史批次认定名单与证书编号,新疆,2026-11-14T14:07:40+08:00,2026-11-14T14:17:54+08:00,专题会话,54,"pwsh,read,send_message,write",v4.1flash
+91a47f2ab018bbaa,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,浙江,2026-11-14T20:02:29+08:00,2026-11-14T21:20:55+08:00,专题会话,206,"compress,edit,job_kill,job_output,pwsh,read,read_page,web_search,write",v4.1flash
+0d63c5d3c0fbc4b2,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,吉林、宁夏、西藏、新疆、福建、广西、云南、青海、辽宁、甘肃、海南、贵州、黑龙江、内蒙古,2026-11-14T20:02:29+08:00,2026-11-14T21:35:08+08:00,专题会话,232,"compress,edit,job_kill,job_output,list_agents,pwsh,read,web_search,write",v4.1flash
+1ff1f4616a247a2f,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,陕西、山西,2026-11-14T20:02:29+08:00,2026-11-14T20:23:44+08:00,专题会话,132,"compress,edit,grep,present,pwsh,read,web_search,write",v4.1flash
+68f3931e9924b108,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,湖南、江西,2026-11-14T20:02:29+08:00,2026-11-14T20:33:43+08:00,专题会话,192,"compress,edit,grep,job_kill,job_output,pwsh,read,web_search,write",v4.1flash
+fa2a597ca7a67067,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,山东,2026-11-14T20:02:29+08:00,2026-11-14T21:32:21+08:00,专题会话,181,"compress,edit,grep,job_output,present,pwsh,read,web_search,write",v4.1flash
+f3886a72afa99bd1,DeepSeek Harness,城市归属补录,从名单和地区字段整理企业所在城市,河北、河南,2026-11-14T20:02:29+08:00,2026-11-14T20:34:22+08:00,专题会话,177,"compress,edit,job_output,present,pwsh,read,read_image,read_page,web_search,write",v4.1flash
+5963a5ae2a956169,DeepSeek Harness,政策资料,采集科技金融试点政策原文与名单,,2026-11-15T11:30:18+08:00,2026-11-15T11:42:32+08:00,专题会话,78,"compress,edit,pwsh,write",v4.1flash
+837d3b07d69c0e01,DeepSeek Harness,扩展企业名单,采集专精特新小巨人公示名单,,2026-11-15T11:30:25+08:00,2026-11-15T12:03:40+08:00,专题会话,189,"compress,edit,job_output,pwsh,read,read_image,read_page,web_search,write",v4.1flash
+9aaaa745a68767c7,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,江苏、浙江、上海、安徽、山东,2026-11-15T11:30:33+08:00,2026-11-15T12:11:10+08:00,专题会话,178,"compress,edit,grep,job_output,present,pwsh,read,web_search,write",v4.1flash
+eb8a8c51ef836810,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,广东、北京、湖北、四川、河南,2026-11-15T11:30:40+08:00,2026-11-15T11:55:34+08:00,专题会话,165,"acp_status,compress,edit,grep,job_output,pwsh,read,web_search,write",v4.1flash
+52ffc7b2befdf073,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,山西、天津、河北、吉林、辽宁、黑龙江、内蒙古,2026-11-15T11:56:13+08:00,2026-11-15T13:06:30+08:00,专题会话,262,"compress,edit,job_kill,job_list,job_output,present,pwsh,read,web_search,write",v4.1flash
+8c9757db31d1895a,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,湖南、江西、福建、广西、海南、宁波、青岛、厦门,2026-11-15T11:56:20+08:00,2026-11-15T12:48:24+08:00,专题会话,305,"compress,edit,grep,job_output,pwsh,read,web_search,write",v4.1flash
+ee405809b0c535ff,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,陕西、宁夏、西藏、新疆、云南、青海、重庆、甘肃、贵州,2026-11-15T11:56:25+08:00,2026-11-15T12:17:53+08:00,专题会话,135,"compress,edit,grep,job_output,pwsh,read,web_search,write",v4.1flash
+515e39de4d6f0265,DeepSeek Harness,扩展企业名单,采集科技型中小企业入库公示,湖北、四川,2026-11-15T11:56:33+08:00,2026-11-15T12:13:13+08:00,专题会话,182,"compress,edit,grep,job_output,present,pwsh,read,web_search,write",v4.1flash
+43db676061f39649,DeepSeek Harness,扩展企业名单,采集专精特新小巨人公示名单,,2026-11-15T12:03:48+08:00,2026-11-15T12:40:55+08:00,专题会话,190,"compress,edit,job_kill,job_list,job_output,pwsh,read,web_search,write",v4.1flash
+54cb4371a90ec526,DeepSeek Harness,扩展企业名单,采集专精特新小巨人公示名单,,2026-11-15T12:03:52+08:00,2026-11-15T13:06:58+08:00,专题会话,190,"compress,edit,job_kill,job_output,present,pwsh,read,write",v4.1flash
+80d1e5e89430a5bd,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,江苏、山东,2026-11-15T15:47:06+08:00,2026-11-15T16:05:34+08:00,专题会话,127,"compress,edit,pwsh,read,read_image,web_fetch,web_search,write",v4.1flash
+035e7990a5b9198f,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,浙江、安徽,2026-11-15T15:47:11+08:00,2026-11-15T15:59:48+08:00,专题会话,107,"compress,edit,present,pwsh,read,read_page,web_search,write",v4.1flash
+1f44ca790a968456,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,广东、河南,2026-11-15T15:47:16+08:00,2026-11-15T16:09:36+08:00,专题会话,167,"compress,edit,job_kill,job_output,pwsh,read_image,read_page,web_search,write",v4.1flash
+32f3f3c9cab929da,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,上海、北京、湖北、四川、成都、绵阳、武汉,2026-11-15T15:47:21+08:00,2026-11-15T16:12:27+08:00,专题会话,172,"compress,edit,present,pwsh,read,web_search,write",v4.1flash
+e9e5b7916d750ce6,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,,2026-11-15T15:47:29+08:00,2026-11-15T16:11:39+08:00,专题会话,137,"compress,edit,glob,job_kill,job_list,job_output,present,pwsh,read,read_image,web_search,write",v4.1flash
+8a2a9ae8b3af95f7,DeepSeek Harness,专利数据,统计年鉴、统计公报或知识产权年报的城市专利数据,广东,2026-11-15T16:09:45+08:00,2026-11-15T16:27:43+08:00,专题会话,155,"compress,edit,grep,present,pwsh,read,write",v4.1flash
