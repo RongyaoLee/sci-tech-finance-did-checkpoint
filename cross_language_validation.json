@@ -1,0 +1,49 @@
+{
+  "software": "Stata/MP 18; Python numpy/pandas/statsmodels/scipy",
+  "checks": [
+    {
+      "analysis": "seven_city_matching",
+      "rows": 12,
+      "max_absolute_error": {
+        "matched": 4.371503159461554e-16,
+        "paired_estimate": 6.106226635438361e-16,
+        "paired_conditional_p": 0.0
+      },
+      "tolerance": 1e-10,
+      "status": "PASS"
+    },
+    {
+      "analysis": "applicant_ddd",
+      "rows": 28,
+      "max_absolute_error": {
+        "estimate": 4.618527782440651e-14
+      },
+      "tolerance": 1e-10,
+      "status": "PASS"
+    },
+    {
+      "analysis": "aggregate_finance",
+      "rows": 8,
+      "max_absolute_error": {
+        "estimate": 4.440892098500626e-16
+      },
+      "tolerance": 1e-10,
+      "status": "PASS"
+    },
+    {
+      "analysis": "patent_type_ddd",
+      "rows": 1,
+      "max_absolute_error": {
+        "coef": 2.0199120154273942e-14,
+        "se_city_cluster": 1.5265566588595902e-16,
+        "p_city_cluster": 1.9473311851925246e-13
+      },
+      "status": "PASS",
+      "note": "Stata t p-value is separately reported; compare normal-reference p with statsmodels."
+    }
+  ],
+  "data_sha256": {
+    "eps_city_panel.dta": "0a5de95f3db0180469fafc266a6c485530ed8b0b6b8cbad919e95f4874a4c8f2",
+    "public_applicants.dta": "80c8c121a7732d83fdc467094f7ec67184915cfe87afd9f1ac0dd34496c6486c"
+  }
+}
