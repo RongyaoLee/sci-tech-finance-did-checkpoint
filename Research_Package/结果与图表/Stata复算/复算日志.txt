@@ -1,0 +1,53 @@
+Stata native TWFE replication
+Stata version: 18
+Unit: city-year; city and year fixed effects; city-clustered standard errors
+Balanced city eligibility matches the Python --balanced option.
+Panel: 2020-2023 / main
+  hightech_per_10k b=     1.094306845 se=     .6806649902 p=     .108857 N=  1318 G= 331
+  hightech b=     1969.273231 se=     1011.627433 p=    .0524263 N=  1318 G= 331
+  log_hightech b=    .01061079151 se=     .0553153986 p=     .847998 N=  1318 G= 331
+  manufacturing b=     135.1725485 se=     119.3266633 p=     .258123 N=  1318 G= 331
+  services b=     1834.100682 se=     930.0147112 p=    .0494306 N=  1318 G= 331
+  hightech_share b=     .0263359623 se=   .003495359566 p= 4.75245e-13 N=  1318 G= 331
+  all_new_per_10k b=    -1.388326594 se=     1.894200802 p=     .464118 N=  1318 G= 331
+Panel: 2020-2023 / four_digit
+  hightech_per_10k b=    .02920181292 se=    .08290724761 p=     .724896 N=  1318 G= 331
+  hightech b=     13.50718938 se=     106.5140311 p=     .899167 N=  1318 G= 331
+  log_hightech b=    .00637159455 se=    .05259458127 p=      .90365 N=  1318 G= 331
+  manufacturing b=    -10.70947838 se=     15.50282804 p=     .490172 N=  1318 G= 331
+  services b=     24.21666777 se=      113.003411 p=     .830445 N=  1318 G= 331
+  hightech_share b=   .003343721913 se=   .001578564077 p=    .0349049 N=  1318 G= 331
+  all_new_per_10k b=    -1.388326594 se=     1.894200802 p=     .464118 N=  1318 G= 331
+Panel: 2019-2023 / main
+  hightech_per_10k b=     1.258734189 se=     .7366096466 p=    .0884272 N=  1644 G= 330
+  hightech b=     2553.043296 se=      1509.98741 p=    .0918276 N=  1644 G= 330
+  log_hightech b=   -.00198420365 se=    .05726123613 p=     .972378 N=  1644 G= 330
+  manufacturing b=      264.515974 se=     157.5336781 p=    .0940805 N=  1644 G= 330
+  services b=     2288.527322 se=      1369.32777 p=    .0956176 N=  1644 G= 330
+  hightech_share b=    .03045218413 se=   .004395462754 p= 2.25348e-11 N=  1644 G= 330
+  all_new_per_10k b=    -1.893814398 se=     1.827999712 p=     .300961 N=  1644 G= 330
+Panel: 2019-2023 / four_digit
+  hightech_per_10k b=    -.2315312609 se=     .1892884321 p=     .222142 N=  1644 G= 330
+  hightech b=    -484.9021505 se=     434.7685279 p=     .265531 N=  1644 G= 330
+  log_hightech b=   -.02489910148 se=    .08692638945 p=     .774722 N=  1644 G= 330
+  manufacturing b=     18.87287693 se=     15.01194398 p=     .209576 N=  1644 G= 330
+  services b=    -503.7750274 se=     443.5278073 p=     .256852 N=  1644 G= 330
+  hightech_share b=  .0006934620096 se=   .004563696782 p=     .879318 N=  1644 G= 330
+  all_new_per_10k b=    -1.893814398 se=     1.827999712 p=     .300961 N=  1644 G= 330
+Panel: 2018-2023 / main
+  hightech_per_10k b=     1.696541528 se=     .7394321891 p=    .0223998 N=  1968 G= 329
+  hightech b=     3209.029842 se=     1741.104371 p=    .0662165 N=  1968 G= 329
+  log_hightech b=    .03255397878 se=    .05357209925 p=     .543829 N=  1968 G= 329
+  manufacturing b=     355.0616779 se=     172.5346966 p=    .0403882 N=  1968 G= 329
+  services b=     2853.968164 se=     1578.944295 p=    .0715978 N=  1968 G= 329
+  hightech_share b=    .03404874568 se=    .00514404012 p= 1.47554e-10 N=  1968 G= 329
+  all_new_per_10k b=    -.6526248856 se=     1.609509835 p=     .685389 N=  1968 G= 329
+Panel: 2018-2023 / four_digit
+  hightech_per_10k b=    -.3474965984 se=     .2280661456 p=     .128556 N=  1968 G= 329
+  hightech b=    -684.5117541 se=     548.3057877 p=      .21277 N=  1968 G= 329
+  log_hightech b=   -.05816811074 se=    .09781586675 p=     .552474 N=  1968 G= 329
+  manufacturing b=     35.56138427 se=     16.02521476 p=    .0271645 N=  1968 G= 329
+  services b=    -720.0731384 se=      556.609775 p=     .196687 N=  1968 G= 329
+  hightech_share b=  -.003317092027 se=   .004970765486 p=     .505037 N=  1968 G= 329
+  all_new_per_10k b=    -.6526248856 se=     1.609509835 p=     .685389 N=  1968 G= 329
+Completed  42 Stata regressions.

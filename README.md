@@ -1,6 +1,8 @@
 # 科创金融改革试验区与高新技术企业发展
 
-本文考察七个试点城市在改革初期的高企认定、专利和融资变化。[复现包](source_bundle.zip) 收录数据、采集脚本和分析代码。[Day 3 检查点](CHECKPOINT_DAY3.md) 简述本阶段的进展。
+修订研究以工商设立登记衡量高技术产业企业进入。论文、2018—2023 年城市月度汇总和 Python／Stata 复算材料见[研究包](Research_Package/README.md)。
+
+下文记录早期对七个试点城市高企认定、专利和融资变化的分析。[Day 3 检查点](CHECKPOINT_DAY3.md) 概述该阶段的工作。
 
 ## 实证结果
 
@@ -34,20 +36,12 @@ do main.do
 do cohort_models.do
 ```
 
-`main.do` 估计七城匹配、专利类型 DDD 和城市专利总授权 PPML。`cohort_models.do` 估计申请人 DDD 和各批次融资指标的变化。分批次合成双重差分（SDID）和扩展安慰剂检验使用 Python，命令见 [复现说明](REPRODUCE.md)。
+`main.do` 估计七城匹配、专利类型 DDD 和城市专利总授权 PPML。`cohort_models.do` 估计申请人 DDD 和各批次融资指标的变化。旧版 Stata 输入与输出说明见[复现说明](REPRODUCE.md)。
 
 两套软件核对了 12 组匹配结果、28 组申请人 DDD、8 组融资合并估计及专利类型 DDD。确定性估计的差异均小于 1e-10，配对翻转检验的 p 值一致。[逐项核对结果](cross_language_validation.json)
 
-## 复现包目录
+## 过程记录
 
-| 目录 | 内容 |
-|---|---|
-| `work/`、`stata/` | Python 和 Stata 分析程序、面板数据与变量字典 |
-| `crawlers/` | 高企名单、专利数据采集与解析脚本 |
-| `outputs/` | 公开专利面板、逐条来源和地方融资披露记录 |
-| `results/`、`docs/` | Stata 输出、跨软件核对结果、文件清单和校验值 |
-| `logs/` | Agent 使用记录 |
-
-[DeepSeek 日志](deepseek_recovered.csv) 按会话编号汇总 88 段项目相关记录，其中 81 段为专题会话，另有 7 段选录项目相关消息。工作涉及认定名单采集、证书核对、城市补录、专利资料和早期研究。[事件明细](deepseek_events.csv) 按会话编号和序号列出专题会话中的 9,364 条工具调用及另 7 段会话中的 24 条相关消息。会话数包含分派给子任务的会话。[Codex 记录](codex_recovered.csv) 收录项目回复节选及时间戳。Claude 和 Kimi 的使用情况由用户补记，模型名称的来源见各表字段。[使用补记](retrospective.csv)
+早期分析的模型分工见 [Agent 使用说明](AGENT_USAGE.md)。
 
 归档于 2026 年 11 月 19 日。

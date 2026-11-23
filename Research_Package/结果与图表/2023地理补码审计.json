@@ -1,0 +1,19 @@
+{
+  "source_zip_crc32": "a088fe50",
+  "missing_standard_city_code": 4137344,
+  "accepted_original_province_city_pairs": 322,
+  "excluded_original_province_city_pairs": 20,
+  "recovered_rows": 4067465,
+  "unresolved_rows": 69879,
+  "rule": "Exact original province+city spelling; modal observed code >=100 anchors and >=98% of all anchors; code province prefix agrees with dominant prefix for province (>=98%); dominant standardized province+city names equal original names exactly (>=100 anchors, >=98%).",
+  "patch_dtype": [
+    [
+      "row_index",
+      "<u4"
+    ],
+    [
+      "city_code",
+      "|S6"
+    ]
+  ]
+}

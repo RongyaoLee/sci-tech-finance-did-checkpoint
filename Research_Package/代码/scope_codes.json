@@ -1,0 +1,1684 @@
+{
+ "four": {
+  "2710": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0111",
+   "ht_name": "化学药品原料药制造",
+   "catalog": "制造业2017",
+   "gb_name": "化学药品原料药制造"
+  },
+  "2720": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0112",
+   "ht_name": "化学药品制剂制造",
+   "catalog": "制造业2017",
+   "gb_name": "化学药品制剂制造"
+  },
+  "2730": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0120",
+   "ht_name": "中药饮片加工",
+   "catalog": "制造业2017",
+   "gb_name": "中药饮片加工"
+  },
+  "2740": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0130",
+   "ht_name": "中成药生产",
+   "catalog": "制造业2017",
+   "gb_name": "中成药生产"
+  },
+  "2750": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0140",
+   "ht_name": "兽用药品制造",
+   "catalog": "制造业2017",
+   "gb_name": "兽用药品制造"
+  },
+  "2761": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0151",
+   "ht_name": "生物药品制造",
+   "catalog": "制造业2017",
+   "gb_name": "生物药品制造"
+  },
+  "2762": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0152",
+   "ht_name": "基因工程药物和疫苗制造",
+   "catalog": "制造业2017",
+   "gb_name": "基因工程药物和疫苗制造"
+  },
+  "2770": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0160",
+   "ht_name": "卫生材料及医药用品制造",
+   "catalog": "制造业2017",
+   "gb_name": "卫生材料及医药用品制造"
+  },
+  "2780": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0170",
+   "ht_name": "药用辅料及包装材料",
+   "catalog": "制造业2017",
+   "gb_name": "药用辅料及包装材料制造"
+  },
+  "3741": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0210",
+   "ht_name": "飞机制造",
+   "catalog": "制造业2017",
+   "gb_name": "飞机制造"
+  },
+  "3742": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0220",
+   "ht_name": "航天器及运载火箭制造",
+   "catalog": "制造业2017",
+   "gb_name": "航天器及运载火箭制造"
+  },
+  "3743": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0231",
+   "ht_name": "航天相关设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "航天相关设备制造"
+  },
+  "3744": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0232",
+   "ht_name": "航空相关设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "航空相关设备制造"
+  },
+  "3749": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0240",
+   "ht_name": "其他航空航天器制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他航空航天器制造"
+  },
+  "4343": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0250",
+   "ht_name": "航空航天器修理",
+   "catalog": "制造业2017",
+   "gb_name": "航空航天器修理"
+  },
+  "3562": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0311",
+   "ht_name": "半导体器件专用设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "半导体器件专用设备制造"
+  },
+  "3563": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0312",
+   "ht_name": "电子元器件与机电组件设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "电子元器件与机电组件设备制造"
+  },
+  "3569": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0313",
+   "ht_name": "其他电子专用设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他电子专用设备制造"
+  },
+  "3832": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0321",
+   "ht_name": "光纤制造",
+   "catalog": "制造业2017",
+   "gb_name": "光纤制造"
+  },
+  "3833": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0322",
+   "ht_name": "光缆制造",
+   "catalog": "制造业2017",
+   "gb_name": "光缆制造"
+  },
+  "3841": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0323",
+   "ht_name": "锂离子电池制造",
+   "catalog": "制造业2017",
+   "gb_name": "锂离子电池制造"
+  },
+  "3921": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0331",
+   "ht_name": "通信系统设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "通信系统设备制造"
+  },
+  "3922": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0332",
+   "ht_name": "通信终端设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "通信终端设备制造"
+  },
+  "3940": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0333",
+   "ht_name": "雷达及配套设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "雷达及配套设备制造"
+  },
+  "3931": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0341",
+   "ht_name": "广播电视节目制作及发射设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "广播电视节目制作及发射设备制造"
+  },
+  "3932": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0342",
+   "ht_name": "广播电视接收设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "广播电视接收设备制造"
+  },
+  "3933": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0343",
+   "ht_name": "广播电视专用配件制造",
+   "catalog": "制造业2017",
+   "gb_name": "广播电视专用配件制造"
+  },
+  "3934": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0344",
+   "ht_name": "专业音响设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "专业音响设备制造"
+  },
+  "3939": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0345",
+   "ht_name": "应用电视设备及其他广播电视设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "应用电视设备及其他广播电视设备制造"
+  },
+  "3951": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0351",
+   "ht_name": "电视机制造",
+   "catalog": "制造业2017",
+   "gb_name": "电视机制造"
+  },
+  "3952": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0352",
+   "ht_name": "音响设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "音响设备制造"
+  },
+  "3953": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0353",
+   "ht_name": "影视录放设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "影视录放设备制造"
+  },
+  "3971": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0361",
+   "ht_name": "电子真空器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "电子真空器件制造"
+  },
+  "3972": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0362",
+   "ht_name": "半导体分立器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "半导体分立器件制造"
+  },
+  "3973": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0363",
+   "ht_name": "集成电路制造",
+   "catalog": "制造业2017",
+   "gb_name": "集成电路制造"
+  },
+  "3974": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0364",
+   "ht_name": "显示器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "显示器件制造"
+  },
+  "3975": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0365",
+   "ht_name": "半导体照明器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "半导体照明器件制造"
+  },
+  "3976": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0366",
+   "ht_name": "光电子器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "光电子器件制造"
+  },
+  "3979": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0367",
+   "ht_name": "其他电子器件制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他电子器件制造"
+  },
+  "3981": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0371",
+   "ht_name": "电阻电容电感元件制造",
+   "catalog": "制造业2017",
+   "gb_name": "电阻电容电感元件制造"
+  },
+  "3982": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0372",
+   "ht_name": "电子电路制造",
+   "catalog": "制造业2017",
+   "gb_name": "电子电路制造"
+  },
+  "3983": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0373",
+   "ht_name": "敏感元件及传感器制造",
+   "catalog": "制造业2017",
+   "gb_name": "敏感元件及传感器制造"
+  },
+  "3984": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0374",
+   "ht_name": "电声器件及零件制造",
+   "catalog": "制造业2017",
+   "gb_name": "电声器件及零件制造"
+  },
+  "3985": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0375",
+   "ht_name": "电子专用材料制造",
+   "catalog": "制造业2017",
+   "gb_name": "电子专用材料制造"
+  },
+  "3989": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0376",
+   "ht_name": "其他电子元件制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他电子元件制造"
+  },
+  "3961": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0381",
+   "ht_name": "可穿戴智能设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "可穿戴智能设备制造"
+  },
+  "3962": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0382",
+   "ht_name": "智能车载设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "智能车载设备制造"
+  },
+  "3963": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0383",
+   "ht_name": "智能无人飞行器制造",
+   "catalog": "制造业2017",
+   "gb_name": "智能无人飞行器制造"
+  },
+  "3969": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0384",
+   "ht_name": "其他智能消费设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他智能消费设备制造"
+  },
+  "3990": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0390",
+   "ht_name": "其他电子设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他电子设备制造"
+  },
+  "3911": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0410",
+   "ht_name": "计算机整机制造",
+   "catalog": "制造业2017",
+   "gb_name": "计算机整机制造"
+  },
+  "3912": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0420",
+   "ht_name": "计算机零部件制造",
+   "catalog": "制造业2017",
+   "gb_name": "计算机零部件制造"
+  },
+  "3913": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0430",
+   "ht_name": "计算机外围设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "计算机外围设备制造"
+  },
+  "3914": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0440",
+   "ht_name": "工业控制计算机及系统制造",
+   "catalog": "制造业2017",
+   "gb_name": "工业控制计算机及系统制造"
+  },
+  "3915": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0450",
+   "ht_name": "信息安全设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "信息安全设备制造"
+  },
+  "3919": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0460",
+   "ht_name": "其他计算机制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他计算机制造"
+  },
+  "3474": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0471",
+   "ht_name": "复印和胶印设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "复印和胶印设备制造"
+  },
+  "3475": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0472",
+   "ht_name": "计算器及货币专用设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "计算器及货币专用设备制造"
+  },
+  "3581": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0511",
+   "ht_name": "医疗诊断、监护及治疗设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "医疗诊断、监护及治疗设备制造"
+  },
+  "3582": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0512",
+   "ht_name": "口腔科用设备及器具制造",
+   "catalog": "制造业2017",
+   "gb_name": "口腔科用设备及器具制造"
+  },
+  "3583": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0513",
+   "ht_name": "医疗实验室及医用消毒设备和器具制造",
+   "catalog": "制造业2017",
+   "gb_name": "医疗实验室及医用消毒设备和器具制造"
+  },
+  "3584": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0514",
+   "ht_name": "医疗、外科及兽医用器械制造",
+   "catalog": "制造业2017",
+   "gb_name": "医疗、外科及兽医用器械制造"
+  },
+  "3585": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0515",
+   "ht_name": "机械治疗及病房护理设备制造",
+   "catalog": "制造业2017",
+   "gb_name": "机械治疗及病房护理设备制造"
+  },
+  "3586": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0516",
+   "ht_name": "康复辅具制造",
+   "catalog": "制造业2017",
+   "gb_name": "康复辅具制造"
+  },
+  "3589": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0517",
+   "ht_name": "其他医疗设备及器械制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他医疗设备及器械制造"
+  },
+  "4011": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0521",
+   "ht_name": "工业自动控制系统装置制造",
+   "catalog": "制造业2017",
+   "gb_name": "工业自动控制系统装置制造"
+  },
+  "4012": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0522",
+   "ht_name": "电工仪器仪表制造",
+   "catalog": "制造业2017",
+   "gb_name": "电工仪器仪表制造"
+  },
+  "4013": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0523",
+   "ht_name": "绘图、计算及测量仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "绘图、计算及测量仪器制造"
+  },
+  "4014": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0524",
+   "ht_name": "实验分析仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "实验分析仪器制造"
+  },
+  "4015": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0525",
+   "ht_name": "试验机制造",
+   "catalog": "制造业2017",
+   "gb_name": "试验机制造"
+  },
+  "4016": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0526",
+   "ht_name": "供应用仪器仪表制造",
+   "catalog": "制造业2017",
+   "gb_name": "供应用仪器仪表制造"
+  },
+  "4019": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0527",
+   "ht_name": "其他通用仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他通用仪器制造"
+  },
+  "4021": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0531",
+   "ht_name": "环境监测专用仪器仪表制造",
+   "catalog": "制造业2017",
+   "gb_name": "环境监测专用仪器仪表制造"
+  },
+  "4022": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0532",
+   "ht_name": "运输设备及生产用计数仪表制造",
+   "catalog": "制造业2017",
+   "gb_name": "运输设备及生产用计数仪表制造"
+  },
+  "4023": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0533",
+   "ht_name": "导航、测绘、气象及海洋专用仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "导航、测绘、气象及海洋专用仪器制造"
+  },
+  "4024": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0534",
+   "ht_name": "农林牧渔专用仪器仪表制造",
+   "catalog": "制造业2017",
+   "gb_name": "农林牧渔专用仪器仪表制造"
+  },
+  "4025": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0535",
+   "ht_name": "地质勘探和地震专用仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "地质勘探和地震专用仪器制造"
+  },
+  "4026": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0536",
+   "ht_name": "教学专用仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "教学专用仪器制造"
+  },
+  "4027": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0537",
+   "ht_name": "核子及核辐射测量仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "核子及核辐射测量仪器制造"
+  },
+  "4028": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0538",
+   "ht_name": "电子测量仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "电子测量仪器制造"
+  },
+  "4029": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0539",
+   "ht_name": "其他专用仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "其他专用仪器制造"
+  },
+  "4040": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0540",
+   "ht_name": "光学仪器制造",
+   "catalog": "制造业2017",
+   "gb_name": "光学仪器制造"
+  },
+  "4090": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0550",
+   "ht_name": "其他仪器仪表制造业",
+   "catalog": "制造业2017",
+   "gb_name": "其他仪器仪表制造业"
+  },
+  "2664": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0611",
+   "ht_name": "文化用信息化学品制造",
+   "catalog": "制造业2017",
+   "gb_name": "文化用信息化学品制造"
+  },
+  "2665": {
+   "cat": "M",
+   "star": false,
+   "ht_code": "0612",
+   "ht_name": "医学生产用信息化学品制造",
+   "catalog": "制造业2017",
+   "gb_name": "医学生产用信息化学品制造"
+  },
+  "6311": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1101",
+   "ht_name": "固定电信服务",
+   "catalog": "服务业2018",
+   "gb_name": "固定电信服务"
+  },
+  "6312": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1102",
+   "ht_name": "移动电信服务",
+   "catalog": "服务业2018",
+   "gb_name": "移动电信服务"
+  },
+  "6319": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1103",
+   "ht_name": "其他电信服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他电信服务"
+  },
+  "6321": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1104",
+   "ht_name": "有线广播电视传输服务",
+   "catalog": "服务业2018",
+   "gb_name": "有线广播电视传输服务"
+  },
+  "6322": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1105",
+   "ht_name": "无线广播电视传输服务",
+   "catalog": "服务业2018",
+   "gb_name": "无线广播电视传输服务"
+  },
+  "6331": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1106",
+   "ht_name": "广播电视卫星传输服务",
+   "catalog": "服务业2018",
+   "gb_name": "广播电视卫星传输服务"
+  },
+  "6339": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1107",
+   "ht_name": "其他卫星传输服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他卫星传输服务"
+  },
+  "6410": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1201",
+   "ht_name": "互联网接入及相关服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网接入及相关服务"
+  },
+  "6421": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1202",
+   "ht_name": "互联网搜索服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网搜索服务"
+  },
+  "6490": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1203",
+   "ht_name": "其他互联网服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他互联网服务"
+  },
+  "6511": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1204",
+   "ht_name": "基础软件开发",
+   "catalog": "服务业2018",
+   "gb_name": "基础软件开发"
+  },
+  "6512": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1205",
+   "ht_name": "支撑软件开发",
+   "catalog": "服务业2018",
+   "gb_name": "支撑软件开发"
+  },
+  "6513": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1206",
+   "ht_name": "应用软件开发",
+   "catalog": "服务业2018",
+   "gb_name": "应用软件开发"
+  },
+  "6519": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1207",
+   "ht_name": "其他软件开发",
+   "catalog": "服务业2018",
+   "gb_name": "其他软件开发"
+  },
+  "6531": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1208",
+   "ht_name": "信息系统集成服务",
+   "catalog": "服务业2018",
+   "gb_name": "信息系统集成服务"
+  },
+  "6532": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1209",
+   "ht_name": "物联网技术服务",
+   "catalog": "服务业2018",
+   "gb_name": "物联网技术服务"
+  },
+  "6540": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1210",
+   "ht_name": "运行维护服务",
+   "catalog": "服务业2018",
+   "gb_name": "运行维护服务"
+  },
+  "6560": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1211",
+   "ht_name": "信息技术咨询服务",
+   "catalog": "服务业2018",
+   "gb_name": "信息技术咨询服务"
+  },
+  "6440": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1212",
+   "ht_name": "互联网安全服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网安全服务"
+  },
+  "6450": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1213",
+   "ht_name": "互联网数据服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网数据服务"
+  },
+  "6550": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1214",
+   "ht_name": "信息处理和存储支持服务",
+   "catalog": "服务业2018",
+   "gb_name": "信息处理和存储支持服务"
+  },
+  "6520": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1215",
+   "ht_name": "集成电路设计",
+   "catalog": "服务业2018",
+   "gb_name": "集成电路设计"
+  },
+  "6591": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1216",
+   "ht_name": "呼叫中心",
+   "catalog": "服务业2018",
+   "gb_name": "呼叫中心"
+  },
+  "6599": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1299",
+   "ht_name": "其他未列明信息技术服务业",
+   "catalog": "服务业2018",
+   "gb_name": "其他未列明信息技术服务业"
+  },
+  "6571": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1301",
+   "ht_name": "地理遥感信息服务",
+   "catalog": "服务业2018",
+   "gb_name": "地理遥感信息服务"
+  },
+  "6572": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1302",
+   "ht_name": "动漫、游戏数字内容服务",
+   "catalog": "服务业2018",
+   "gb_name": "动漫、游戏数字内容服务"
+  },
+  "6579": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1303",
+   "ht_name": "其他数字内容服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他数字内容服务"
+  },
+  "6422": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1304",
+   "ht_name": "互联网游戏服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网游戏服务"
+  },
+  "6429": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1305",
+   "ht_name": "互联网其他信息服务",
+   "catalog": "服务业2018",
+   "gb_name": "互联网其他信息服务"
+  },
+  "8625": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1306",
+   "ht_name": "电子出版物出版",
+   "catalog": "服务业2018",
+   "gb_name": "电子出版物出版"
+  },
+  "8626": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1307",
+   "ht_name": "数字出版",
+   "catalog": "服务业2018",
+   "gb_name": "数字出版"
+  },
+  "8710": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "1308",
+   "ht_name": "互联网广播",
+   "catalog": "服务业2018",
+   "gb_name": "广播"
+  },
+  "8720": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "1309",
+   "ht_name": "互联网电视",
+   "catalog": "服务业2018",
+   "gb_name": "电视"
+  },
+  "8740": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "1310",
+   "ht_name": "广播电视集成播控",
+   "catalog": "服务业2018",
+   "gb_name": "广播电视集成播控"
+  },
+  "8890": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "1311",
+   "ht_name": "其他文化艺术",
+   "catalog": "服务业2018",
+   "gb_name": "其他文化艺术业"
+  },
+  "6431": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "2101",
+   "ht_name": "互联网生产服务平台",
+   "catalog": "服务业2018",
+   "gb_name": "互联网生产服务平台"
+  },
+  "6432": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "2102",
+   "ht_name": "互联网生活服务平台",
+   "catalog": "服务业2018",
+   "gb_name": "互联网生活服务平台"
+  },
+  "6433": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "2103",
+   "ht_name": "互联网科技创新平台",
+   "catalog": "服务业2018",
+   "gb_name": "互联网科技创新平台"
+  },
+  "6434": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "2104",
+   "ht_name": "互联网公共服务平台",
+   "catalog": "服务业2018",
+   "gb_name": "互联网公共服务平台"
+  },
+  "6439": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "2199",
+   "ht_name": "其他互联网平台",
+   "catalog": "服务业2018",
+   "gb_name": "其他互联网平台"
+  },
+  "6930": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "2200",
+   "ht_name": "非金融机构网络支付服务",
+   "catalog": "服务业2018",
+   "gb_name": "非金融机构支付服务"
+  },
+  "7295": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "2300",
+   "ht_name": "电子商务信用服务",
+   "catalog": "服务业2018",
+   "gb_name": "信用服务"
+  },
+  "7451": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3101",
+   "ht_name": "检验检疫服务",
+   "catalog": "服务业2018",
+   "gb_name": "检验检疫服务"
+  },
+  "7452": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3102",
+   "ht_name": "检测服务",
+   "catalog": "服务业2018",
+   "gb_name": "检测服务"
+  },
+  "7453": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3103",
+   "ht_name": "计量服务",
+   "catalog": "服务业2018",
+   "gb_name": "计量服务"
+  },
+  "7454": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3104",
+   "ht_name": "标准化服务",
+   "catalog": "服务业2018",
+   "gb_name": "标准化服务"
+  },
+  "7455": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3105",
+   "ht_name": "认证认可服务",
+   "catalog": "服务业2018",
+   "gb_name": "认证认可服务"
+  },
+  "7459": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "3199",
+   "ht_name": "其他质检技术服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他质检技术服务"
+  },
+  "7410": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4100",
+   "ht_name": "气象服务",
+   "catalog": "服务业2018",
+   "gb_name": "气象服务"
+  },
+  "7420": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4200",
+   "ht_name": "地震服务",
+   "catalog": "服务业2018",
+   "gb_name": "地震服务"
+  },
+  "7431": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4301",
+   "ht_name": "海洋气象服务",
+   "catalog": "服务业2018",
+   "gb_name": "海洋气象服务"
+  },
+  "7432": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4302",
+   "ht_name": "海洋环境服务",
+   "catalog": "服务业2018",
+   "gb_name": "海洋环境服务"
+  },
+  "7439": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4399",
+   "ht_name": "其他海洋服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他海洋服务"
+  },
+  "7441": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4401",
+   "ht_name": "遥感测绘服务",
+   "catalog": "服务业2018",
+   "gb_name": "遥感测绘服务"
+  },
+  "7449": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4499",
+   "ht_name": "其他测绘地理信息服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他测绘地理信息服务"
+  },
+  "7471": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4501",
+   "ht_name": "能源矿产地质勘查",
+   "catalog": "服务业2018",
+   "gb_name": "能源矿产地质勘查"
+  },
+  "7472": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4502",
+   "ht_name": "固体矿产地质勘查",
+   "catalog": "服务业2018",
+   "gb_name": "固体矿产地质勘查"
+  },
+  "7473": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4503",
+   "ht_name": "水、二氧化碳等矿产地质勘查",
+   "catalog": "服务业2018",
+   "gb_name": "水、二氧化碳等矿产地质勘查"
+  },
+  "7474": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4504",
+   "ht_name": "基础地质勘查",
+   "catalog": "服务业2018",
+   "gb_name": "基础地质勘查"
+  },
+  "7475": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4505",
+   "ht_name": "地质勘查技术服务",
+   "catalog": "服务业2018",
+   "gb_name": "地质勘查技术服务"
+  },
+  "7481": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4601",
+   "ht_name": "工程管理服务",
+   "catalog": "服务业2018",
+   "gb_name": "工程管理服务"
+  },
+  "7482": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4602",
+   "ht_name": "工程监理服务",
+   "catalog": "服务业2018",
+   "gb_name": "工程监理服务"
+  },
+  "7483": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4603",
+   "ht_name": "工程勘察活动",
+   "catalog": "服务业2018",
+   "gb_name": "工程勘察活动"
+  },
+  "7484": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4604",
+   "ht_name": "工程设计活动",
+   "catalog": "服务业2018",
+   "gb_name": "工程设计活动"
+  },
+  "7485": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4605",
+   "ht_name": "规划设计管理",
+   "catalog": "服务业2018",
+   "gb_name": "规划设计管理"
+  },
+  "7486": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "4606",
+   "ht_name": "土地规划服务",
+   "catalog": "服务业2018",
+   "gb_name": "土地规划服务"
+  },
+  "7310": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5100",
+   "ht_name": "自然科学研究和试验发展",
+   "catalog": "服务业2018",
+   "gb_name": "自然科学研究和试验发展"
+  },
+  "7320": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5200",
+   "ht_name": "工程和技术研究和试验发展",
+   "catalog": "服务业2018",
+   "gb_name": "工程和技术研究和试验发展"
+  },
+  "7330": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5300",
+   "ht_name": "农业科学研究和试验发展",
+   "catalog": "服务业2018",
+   "gb_name": "农业科学研究和试验发展"
+  },
+  "7340": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5400",
+   "ht_name": "医学研究和试验发展",
+   "catalog": "服务业2018",
+   "gb_name": "医学研究和试验发展"
+  },
+  "7491": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5501",
+   "ht_name": "工业设计服务",
+   "catalog": "服务业2018",
+   "gb_name": "工业设计服务"
+  },
+  "7492": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "5502",
+   "ht_name": "专业设计服务",
+   "catalog": "服务业2018",
+   "gb_name": "专业设计服务"
+  },
+  "7511": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6101",
+   "ht_name": "农林牧渔技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "农林牧渔技术推广服务"
+  },
+  "7512": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6102",
+   "ht_name": "生物技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "生物技术推广服务"
+  },
+  "7513": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6103",
+   "ht_name": "新材料技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "新材料技术推广服务"
+  },
+  "7514": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6104",
+   "ht_name": "节能技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "节能技术推广服务"
+  },
+  "7515": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6105",
+   "ht_name": "新能源技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "新能源技术推广服务"
+  },
+  "7516": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6106",
+   "ht_name": "环保技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "环保技术推广服务"
+  },
+  "7517": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6107",
+   "ht_name": "三维（3D)打印技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "三维（3D)打印技术推广服务"
+  },
+  "7519": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6199",
+   "ht_name": "其他技术推广服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他技术推广服务"
+  },
+  "7530": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6201",
+   "ht_name": "科技中介服务",
+   "catalog": "服务业2018",
+   "gb_name": "科技中介服务"
+  },
+  "7540": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6202",
+   "ht_name": "创业空间服务",
+   "catalog": "服务业2018",
+   "gb_name": "创业空间服务"
+  },
+  "7590": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "6300",
+   "ht_name": "其他科技推广服务业",
+   "catalog": "服务业2018",
+   "gb_name": "其他科技推广服务业"
+  },
+  "7520": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "7100",
+   "ht_name": "知识产权服务",
+   "catalog": "服务业2018",
+   "gb_name": "知识产权服务"
+  },
+  "7231": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "7201",
+   "ht_name": "知识产权律师及相关法律服务",
+   "catalog": "服务业2018",
+   "gb_name": "律师及相关法律服务"
+  },
+  "7239": {
+   "cat": "S",
+   "star": true,
+   "ht_code": "7299",
+   "ht_name": "其他知识产权法律服务",
+   "catalog": "服务业2018",
+   "gb_name": "其他法律服务"
+  },
+  "7461": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8101",
+   "ht_name": "环境保护监测",
+   "catalog": "服务业2018",
+   "gb_name": "环境保护监测"
+  },
+  "7462": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8102",
+   "ht_name": "生态资源监测",
+   "catalog": "服务业2018",
+   "gb_name": "生态资源监测"
+  },
+  "7463": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8103",
+   "ht_name": "野生动物疫源疫病防控监测",
+   "catalog": "服务业2018",
+   "gb_name": "野生动物疫源疫病防控监测"
+  },
+  "7721": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8201",
+   "ht_name": "水污染治理",
+   "catalog": "服务业2018",
+   "gb_name": "水污染治理"
+  },
+  "7722": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8202",
+   "ht_name": "大气污染治理",
+   "catalog": "服务业2018",
+   "gb_name": "大气污染治理"
+  },
+  "7723": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8203",
+   "ht_name": "固体废物治理",
+   "catalog": "服务业2018",
+   "gb_name": "固体废物治理"
+  },
+  "7724": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8204",
+   "ht_name": "危险废物治理",
+   "catalog": "服务业2018",
+   "gb_name": "危险废物治理"
+  },
+  "7725": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8205",
+   "ht_name": "放射性废物治理",
+   "catalog": "服务业2018",
+   "gb_name": "放射性废物治理"
+  },
+  "7726": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8206",
+   "ht_name": "土壤污染治理与修复服务",
+   "catalog": "服务业2018",
+   "gb_name": "土壤污染治理与修复服务"
+  },
+  "7727": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8207",
+   "ht_name": "噪声与振动控制服务",
+   "catalog": "服务业2018",
+   "gb_name": "噪声与振动控制服务"
+  },
+  "7729": {
+   "cat": "S",
+   "star": false,
+   "ht_code": "8299",
+   "ht_name": "其他污染治理",
+   "catalog": "服务业2018",
+   "gb_name": "其他污染治理"
+  }
+ },
+ "four_star": [
+  "6930",
+  "7231",
+  "7239",
+  "7295",
+  "8710",
+  "8720",
+  "8890"
+ ],
+ "three_full": [
+  "271",
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "374",
+  "391",
+  "392",
+  "393",
+  "394",
+  "395",
+  "397",
+  "398",
+  "399",
+  "401",
+  "402",
+  "404",
+  "409",
+  "631",
+  "632",
+  "633",
+  "641",
+  "642",
+  "643",
+  "644",
+  "645",
+  "649",
+  "651",
+  "652",
+  "653",
+  "654",
+  "655",
+  "656",
+  "657",
+  "659",
+  "731",
+  "732",
+  "733",
+  "734",
+  "741",
+  "742",
+  "743",
+  "744",
+  "745",
+  "746",
+  "747",
+  "748",
+  "751",
+  "752",
+  "753",
+  "754",
+  "759",
+  "772",
+  "874"
+ ],
+ "two_full": [
+  "27",
+  "63",
+  "64",
+  "65",
+  "75"
+ ],
+ "three_full_M": [
+  "271",
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "374",
+  "391",
+  "392",
+  "393",
+  "394",
+  "395",
+  "397",
+  "398",
+  "399",
+  "401",
+  "402",
+  "404",
+  "409"
+ ],
+ "three_full_S": [
+  "631",
+  "632",
+  "633",
+  "641",
+  "642",
+  "643",
+  "644",
+  "645",
+  "649",
+  "651",
+  "652",
+  "653",
+  "654",
+  "655",
+  "656",
+  "657",
+  "659",
+  "731",
+  "732",
+  "733",
+  "734",
+  "741",
+  "742",
+  "743",
+  "744",
+  "745",
+  "746",
+  "747",
+  "748",
+  "751",
+  "752",
+  "753",
+  "754",
+  "759",
+  "772",
+  "874"
+ ],
+ "two_full_M": [
+  "27"
+ ],
+ "two_full_S": [
+  "63",
+  "64",
+  "65",
+  "75"
+ ],
+ "mixed3": [],
+ "mixed2": [],
+ "three_full_from_gb": [
+  "271",
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "374",
+  "391",
+  "392",
+  "393",
+  "394",
+  "395",
+  "397",
+  "398",
+  "399",
+  "401",
+  "402",
+  "404",
+  "409",
+  "631",
+  "632",
+  "633",
+  "641",
+  "642",
+  "643",
+  "644",
+  "645",
+  "649",
+  "651",
+  "652",
+  "653",
+  "654",
+  "655",
+  "656",
+  "657",
+  "659",
+  "731",
+  "732",
+  "733",
+  "734",
+  "741",
+  "742",
+  "743",
+  "744",
+  "745",
+  "746",
+  "747",
+  "748",
+  "751",
+  "752",
+  "753",
+  "754",
+  "759",
+  "772",
+  "874"
+ ],
+ "two_full_from_gb": [
+  "27",
+  "63",
+  "64",
+  "65",
+  "75"
+ ],
+ "declared3": [
+  "276",
+  "393",
+  "395",
+  "397",
+  "398"
+ ],
+ "declared2": [
+  "27"
+ ],
+ "gb_loaded": true
+}

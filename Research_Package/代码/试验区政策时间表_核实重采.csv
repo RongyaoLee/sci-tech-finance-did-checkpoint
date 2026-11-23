@@ -1,0 +1,8 @@
+city,province,cohort,notice_date,transition_year,first_full_treatment_year,spatial_scope,source_url
+济南,山东,1,2021-11-25,2021,2022,济南市,https://www.pbc.gov.cn/chubanwu/114566/114579/4533163/4534685/2022042010165998903.pdf
+上海,上海,2,2022-11-11,2022,2023,上海市,https://www.safe.gov.cn/safe/2022/1121/21793.html
+南京,江苏,2,2022-11-11,2022,2023,南京市,https://www.safe.gov.cn/safe/2022/1121/21793.html
+杭州,浙江,2,2022-11-11,2022,2023,杭州市,https://www.safe.gov.cn/safe/2022/1121/21793.html
+合肥,安徽,2,2022-11-11,2022,2023,合肥市,https://www.safe.gov.cn/safe/2022/1121/21793.html
+嘉兴,浙江,2,2022-11-11,2022,2023,嘉兴市,https://www.safe.gov.cn/safe/2022/1121/21793.html
+北京,北京,3,2023-05-16,2023,2024,中关村试验区；北京市作为市级暴露代理,https://www.pbc.gov.cn/chubanwu/114566/114579/4940535/5093977/2023101214234237156.pdf
