@@ -7,6 +7,29 @@ from docx.shared import Cm, Pt, RGBColor
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
+FONT_FAMILY = "Noto Serif SC"
+
+
+def set_font_family(font):
+    font.name = FONT_FAMILY
+    rfonts = font._element.rPr.rFonts
+    for key in ("ascii", "hAnsi", "eastAsia", "cs"):
+        rfonts.set(qn(f"w:{key}"), FONT_FAMILY)
+    for key in ("asciiTheme", "hAnsiTheme", "eastAsiaTheme", "cstheme"):
+        rfonts.attrib.pop(qn(f"w:{key}"), None)
+
+
+def add_run(paragraph, value, *, bold=None, italic=None, size=None):
+    run = paragraph.add_run(value)
+    set_font_family(run.font)
+    if bold is not None:
+        run.bold = bold
+    if italic is not None:
+        run.italic = italic
+    if size is not None:
+        run.font.size = Pt(size)
+    return run
+
 parser = argparse.ArgumentParser()
 parser.add_argument("source", type=Path)
 parser.add_argument("target", type=Path)
@@ -20,22 +43,20 @@ sec.top_margin = sec.bottom_margin = Cm(2.35)
 sec.left_margin = sec.right_margin = Cm(2.75)
 
 normal = doc.styles["Normal"]
-normal.font.name = "Times New Roman"
+set_font_family(normal.font)
 normal.font.size = Pt(10.5)
-normal.font._element.rPr.rFonts.set(qn("w:eastAsia"), "宋体")
 normal.paragraph_format.line_spacing = Pt(16)
 normal.paragraph_format.space_after = Pt(0)
 normal.paragraph_format.first_line_indent = Pt(21)
 normal.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 
-for name, size, chinese in [("Title", 19.5, "宋体"), ("Heading 1", 13, "宋体"),
-                            ("Heading 2", 10.5, "黑体")]:
+for name, size in [("Title", 19.5), ("Heading 1", 13),
+                   ("Heading 2", 10.5)]:
     style = doc.styles[name]
-    style.font.name = "Times New Roman"
+    set_font_family(style.font)
     style.font.size = Pt(size)
     style.font.bold = True
     style.font.color.rgb = RGBColor(0, 0, 0)
-    style.font._element.rPr.rFonts.set(qn("w:eastAsia"), chinese)
     style.paragraph_format.space_before = Pt(12)
     style.paragraph_format.space_after = Pt(6)
     style.paragraph_format.first_line_indent = Pt(0)
@@ -49,11 +70,11 @@ def add_inline(paragraph, text):
         if not part:
             continue
         if part.startswith("**") and part.endswith("**"):
-            paragraph.add_run(part[2:-2]).bold = True
+            add_run(paragraph, part[2:-2], bold=True)
         elif part.startswith("*") and part.endswith("*"):
-            paragraph.add_run(part[1:-1]).italic = True
+            add_run(paragraph, part[1:-1], italic=True)
         else:
-            paragraph.add_run(part)
+            add_run(paragraph, part)
 
 def add_table(lines):
     cells = [line.strip().strip("|").split("|") for line in lines]
@@ -78,9 +99,7 @@ def add_table(lines):
             p.paragraph_format.space_after = Pt(1)
             if col:
                 p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-            run = p.add_run(value.strip())
-            run.font.size = Pt(9)
-            run.bold = index == 0
+            add_run(p, value.strip(), size=9, bold=index == 0)
             if index == 0:
                 tc_borders = OxmlElement("w:tcBorders")
                 rule = OxmlElement("w:bottom")
@@ -113,7 +132,7 @@ for idx, line in enumerate([*lines, ""]):
         p.paragraph_format.right_indent = Cm(0.78)
         p.paragraph_format.line_spacing = Pt(15.5)
         if abstract_pending:
-            p.add_run("内容提要　").bold = True
+            add_run(p, "内容提要　", bold=True)
         add_inline(p, line)
         abstract_pending = False
         continue
@@ -128,11 +147,11 @@ for idx, line in enumerate([*lines, ""]):
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         for index, token in enumerate(line.split()):
             if index:
-                p.add_run("　")
+                add_run(p, "　")
             name = token.rstrip("¹²")
-            p.add_run(name).font.size = Pt(12)
+            add_run(p, name, size=12)
             if token != name:
-                marker = p.add_run(token[-1].translate(str.maketrans("¹²", "12")))
+                marker = add_run(p, token[-1].translate(str.maketrans("¹²", "12")))
                 marker.font.superscript = True
                 marker.font.size = Pt(9)
         doc.core_properties.author = "、".join(t.rstrip("¹²") for t in line.split())
@@ -144,7 +163,7 @@ for idx, line in enumerate([*lines, ""]):
         p.paragraph_format.line_spacing = Pt(13)
         p.paragraph_format.space_after = Pt(5 if line.startswith("²") else 0)
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p.add_run(line[0].translate(str.maketrans("¹²", "12")) + "　" + line[2:]).font.size = Pt(9)
+        add_run(p, line[0].translate(str.maketrans("¹²", "12")) + "　" + line[2:], size=9)
         continue
     if line.startswith("# "):
         p = doc.add_paragraph(style="Title")
@@ -170,7 +189,7 @@ for idx, line in enumerate([*lines, ""]):
         caption.paragraph_format.first_line_indent = Pt(0)
         caption.paragraph_format.space_after = Pt(8)
         caption.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        caption.add_run(figure[1]).font.size = Pt(10)
+        add_run(caption, figure[1], size=10)
     else:
         p = doc.add_paragraph()
         if in_references:
@@ -179,8 +198,7 @@ for idx, line in enumerate([*lines, ""]):
             p.paragraph_format.line_spacing = Pt(13)
             p.paragraph_format.space_after = Pt(2)
             p.paragraph_format.keep_together = True
-            run = p.add_run(line)
-            run.font.size = Pt(9.5)
+            add_run(p, line, size=9.5)
             continue
         if line.startswith("Y_ct＝"):
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
